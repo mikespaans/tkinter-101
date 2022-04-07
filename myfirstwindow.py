@@ -1,5 +1,5 @@
 import tkinter
-import time
+# import time
 
 window = tkinter.Tk()
 
@@ -21,8 +21,9 @@ for i in range(6):
     window.after(2000,window.update())
     
 
-time.sleep(2)
-window.destroy()
+# time.sleep(2)
+print ("test")
+# window.destroy()
 
 # Hier tussen code
 
